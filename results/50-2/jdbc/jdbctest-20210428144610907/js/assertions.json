@@ -1,0 +1,27 @@
+{
+  "simulation": "bookstore.JdbcTest",
+  "simulationId": "jdbctest",
+  "start": 1619621170907,
+  "description": "",
+  "scenarios": ["Load testing of /jdbc API"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [20000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 20000.0",
+  "actualValue": [18743.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than",
+  "expectedValues": [99.0],
+  "result": true,
+  "message": "Global: percentage of successful events is greater than 99.0",
+  "actualValue": [100.0]
+}
+  ]
+}

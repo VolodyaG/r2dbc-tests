@@ -1,0 +1,161 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 12568,
+        "ok": 12471,
+        "ko": 97
+    },
+    "minResponseTime": {
+        "total": 49,
+        "ok": 49,
+        "ko": 10000
+    },
+    "maxResponseTime": {
+        "total": 60001,
+        "ok": 59270,
+        "ko": 60001
+    },
+    "meanResponseTime": {
+        "total": 2193,
+        "ok": 2108,
+        "ko": 13093
+    },
+    "standardDeviation": {
+        "total": 4474,
+        "ok": 4256,
+        "ko": 12045
+    },
+    "percentiles1": {
+        "total": 1232,
+        "ok": 1229,
+        "ko": 10000
+    },
+    "percentiles2": {
+        "total": 1645,
+        "ok": 1631,
+        "ko": 10001
+    },
+    "percentiles3": {
+        "total": 6384,
+        "ok": 5910,
+        "ko": 60000
+    },
+    "percentiles4": {
+        "total": 21474,
+        "ok": 21360,
+        "ko": 60000
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1824,
+    "percentage": 15
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 3984,
+    "percentage": 32
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 6663,
+    "percentage": 53
+},
+    "group4": {
+    "name": "failed",
+    "count": 97,
+    "percentage": 1
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 74.80952380952381,
+        "ok": 74.23214285714286,
+        "ko": 0.5773809523809523
+    }
+},
+"contents": {
+"req_get-random-auth-60dd5": {
+        "type": "REQUEST",
+        "name": "Get Random Author",
+"path": "Get Random Author",
+"pathFormatted": "req_get-random-auth-60dd5",
+"stats": {
+    "name": "Get Random Author",
+    "numberOfRequests": {
+        "total": 12568,
+        "ok": 12471,
+        "ko": 97
+    },
+    "minResponseTime": {
+        "total": 49,
+        "ok": 49,
+        "ko": 10000
+    },
+    "maxResponseTime": {
+        "total": 60001,
+        "ok": 59270,
+        "ko": 60001
+    },
+    "meanResponseTime": {
+        "total": 2193,
+        "ok": 2108,
+        "ko": 13093
+    },
+    "standardDeviation": {
+        "total": 4474,
+        "ok": 4256,
+        "ko": 12045
+    },
+    "percentiles1": {
+        "total": 1232,
+        "ok": 1229,
+        "ko": 10000
+    },
+    "percentiles2": {
+        "total": 1645,
+        "ok": 1631,
+        "ko": 10001
+    },
+    "percentiles3": {
+        "total": 6384,
+        "ok": 5910,
+        "ko": 60000
+    },
+    "percentiles4": {
+        "total": 21474,
+        "ok": 21360,
+        "ko": 60000
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1824,
+    "percentage": 15
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 3984,
+    "percentage": 32
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 6663,
+    "percentage": 53
+},
+    "group4": {
+    "name": "failed",
+    "count": 97,
+    "percentage": 1
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 74.80952380952381,
+        "ok": 74.23214285714286,
+        "ko": 0.5773809523809523
+    }
+}
+    }
+}
+
+}

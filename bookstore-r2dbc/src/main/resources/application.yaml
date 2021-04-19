@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: bookstore-r2dbc
+  main:
+    banner-mode: off
+  r2dbc:
+    url: ${JDBC_URL:r2dbc:postgresql://localhost:5432/bookstore}
+    username: ${JDBC_USER:postgres}
+    password: ${JDBC_PSWD:admin}
+    pool:
+      max-size: ${POOL_SIZE:2}
+      initial-size: ${POOL_SIZE:2}
+springdoc:
+  swagger-ui:
+    doc-expansion: none
+    display-request-duration: true
+    tags-sorter: alpha
+    operations-sorter: alpha
+  cache:
+    disabled: false
+  default-produces-media-type: application/json
+  default-consumes-media-type: application/json
